@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!--Vemos que se usa  <%= %> 
+  Esto nos mostrara el valor de una variable, recuerda que hemos enviado un objeto llamado datos
+  con atrivutos como titulo, mensaje y proudctos-->
+  <title><%= titulo %></title>
+</head>
+<%- include('partials/header') %> <!--Asi llamamos a otra vista, que puede ser el footer o header como estecaso-->
+<body>
+  <h1><%= mensaje %></h1>
+  
+  <h2>Lista de Productos:</h2>
+  <ul>
+    <!--Aqui vemos que se usa <% %>
+    Est ejecuta codigo js, sin mostrar el resultado-->
+    <% productos.forEach(producto => { %>
+      <li><%= producto %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
