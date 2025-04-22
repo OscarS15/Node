@@ -1,0 +1,1 @@
+const db = require('../config/database'); // importamos la base de datos

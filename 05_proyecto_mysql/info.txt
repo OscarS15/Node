@@ -1,0 +1,10 @@
+llegando a casa vamos a crear la base de datos datos_personales que 
+la tenemos en el aula virtual
+
+vamos a trabajar con un modelo MVC
+
+vamos a hacer un sistma de routing, un servicio de RES/API
+
+modelo -> hace una llamada o consulta a la base de datos por ejemplo
+controlador-> ejecuta la llamada o sea lo logico
+vista ->aqui mostramos lo que nos traiga el controlador
